@@ -38,7 +38,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-   margin-top: 4%;
+  padding-top: 5%;
 }
 
 .sidebar .nav-link {
