@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 import { TiThLargeOutline } from "react-icons/ti";
+import { IoIosNotificationsOutline } from "react-icons/io";
 import { AiOutlineProfile } from "react-icons/ai";
 import { PiUserListLight } from "react-icons/pi";
 import { BsListTask } from "react-icons/bs";
@@ -9,6 +10,7 @@ import { GoReport } from "react-icons/go";
 import { AiOutlineUsergroupAdd } from "react-icons/ai";
 import { IoSettingsOutline } from "react-icons/io5";
 import { MdLogout } from "react-icons/md";
+
 
 const Sidebar = () => {
   return (
@@ -19,6 +21,11 @@ const Sidebar = () => {
             <span><TiThLargeOutline /></span> Dashboard
           </Nav.Link>
         </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="/notification">
+            <span><IoIosNotificationsOutline /></span> Notification
+          </Nav.Link>
+          </Nav.Item>
         <Nav.Item>
           <Nav.Link href="/profile">
             <span><AiOutlineProfile /></span> Profile
